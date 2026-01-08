@@ -12,3 +12,14 @@ nav {
     height: 100px;
     width: 100%;
 }
+
+footer {
+    background-color: #193968;
+    color: white;
+    padding: 20px;
+    height: 150px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid white;
+}
