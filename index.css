@@ -1,4 +1,14 @@
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
+    background-color: #aaaaff;
+    color: black;
+}
+
+nav {
+    background-color:  #3939c8;
+    color: black;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
 }
