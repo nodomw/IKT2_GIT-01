@@ -59,3 +59,18 @@ article p {
     line-height: 1.6;
 }
 
+.imgs {
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+    /* @media letörési pont.. nem kell??? flex wrap megoldja??? 🤔 */
+}
+
+.imgs img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
