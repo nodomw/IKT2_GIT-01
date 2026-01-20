@@ -41,3 +41,21 @@ footer div {
     justify-content: center;
     font-size: 10vh; /* A láblécben a szöveg magassága töltse ki a lábléc blokk magassága-padding méretet ❔❔❔❔ */
 }
+
+article {
+    background-color: #aaaaff !important;
+    color: black !important;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0;
+    margin-bottom: 170px; 
+    border-radius: 20px;
+    width: 500px;
+    margin: 40px auto;
+    border: 2px solid var(--border-color);
+}
+
+article p {
+    line-height: 1.6;
+}
+
