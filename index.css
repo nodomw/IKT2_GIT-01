@@ -1,40 +1,19 @@
+:root {
+  --border-color: #00000027;
+}
+
 body {
-    background-color: #f0f0f0;
+    background-color: #171c24;
     font-family: Arial, sans-serif;
-    background-color: #aaaaff;
     color: black;
+    margin: 0;
 }
 
-nav {
-    background-color:  #3939c8;
-    color: black;
-    padding: 10px;
-    height: 100px;
-    width: 100%;
-}
-
-footer {
-    background-color: #193968;
-    color: white;
-    padding: 20px;
-    height: 150px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    border-top: 1px solid white;
-}
-
-.container {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    flex-direction: row;
-    height: 300px;
-}
-
-@media (max-width: 1350px) {
-    .container {
-        row-gap: 20px;
-        flex-direction: column;
-    }
+header {
+    background-color: #3939c8 !important;
+    color: white !important;
+    padding: 10px !important;
+    height: 100px !important;
+    text-align: center;
+    margin: 0;
 }
