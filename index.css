@@ -17,3 +17,27 @@ header {
     text-align: center;
     margin: 0;
 }
+
+footer {
+    background-color: #193968 !important;
+    color: white !important;
+    padding: 20px !important;
+    height: 150px !important;
+    border-top: 1px solid white !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+footer div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10vh; /* A láblécben a szöveg magassága töltse ki a lábléc blokk magassága-padding méretet ❔❔❔❔ */
+}
