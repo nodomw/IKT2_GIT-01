@@ -6,3 +6,4 @@ fizzbuzz n | n `mod` 15 == 0 = "FizzBuzz"
 
 main :: IO()
 main = do
+    mapM_ (putStrLn . fizzbuzz) [0..100]
