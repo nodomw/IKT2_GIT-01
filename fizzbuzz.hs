@@ -1,0 +1,1 @@
+fizzbuzz :: Int -> String
