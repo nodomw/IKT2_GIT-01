@@ -1,5 +1,8 @@
 :root {
   --border-color: #00000027;
+  --primary-bg: #171c24;
+  --header-bg: #3939c8;
+  --footer-bg: #193968;
 }
 
 body {
