@@ -5,3 +5,4 @@ fizzbuzz n | n `mod` 15 == 0 = "FizzBuzz"
            | otherwise       = show n
 
 main :: IO()
+main = do
