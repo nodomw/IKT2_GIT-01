@@ -13,12 +13,11 @@ body {
 }
 
 header {
-    background-color: #3939c8 !important;
+    background-color: var(--header-bg) !important;
     color: white !important;
-    padding: 10px !important;
-    height: 100px !important;
+    padding: 12px !important;
+    height: 110px !important;
     text-align: center;
-    margin: 0;
 }
 
 footer {
