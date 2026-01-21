@@ -41,7 +41,7 @@ footer div {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 10vh; /* A láblécben a szöveg magassága töltse ki a lábléc blokk magassága-padding méretet ❔❔❔❔ */
+    font-size: 2rem;
 }
 
 article {
