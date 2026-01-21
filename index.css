@@ -1,21 +1,23 @@
 :root {
   --border-color: #00000027;
+  --primary-bg: #171c24;
+  --header-bg: #3939c8;
+  --footer-bg: #193968;
 }
 
 body {
-    background-color: #171c24;
+    background-color: var(--primary-bg) !important;
     font-family: Arial, sans-serif;
     color: black;
     margin: 0;
 }
 
 header {
-    background-color: #3939c8 !important;
+    background-color: var(--header-bg) !important;
     color: white !important;
-    padding: 10px !important;
-    height: 100px !important;
+    padding: 12px !important;
+    height: 110px !important;
     text-align: center;
-    margin: 0;
 }
 
 footer {
@@ -39,7 +41,7 @@ footer div {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 10vh; /* A láblécben a szöveg magassága töltse ki a lábléc blokk magassága-padding méretet ❔❔❔❔ */
+    font-size: 2rem;
 }
 
 article {
@@ -73,4 +75,5 @@ article p {
     display: block;
     margin: 20px auto;
     border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
